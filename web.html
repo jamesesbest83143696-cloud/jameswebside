@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網站大百科</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", sans-serif;
+            background: linear-gradient(135deg, #eef3ff, #dbe8f7);
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* 主標題 h1 */
+        h1 {
+            color: #2e86de; /* 藍色 */
+            font-size: 38px;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+        }
+
+        /* 分類標題 h2 */
+        h2 {
+            color: #10ac84; /* 綠色 */
+            border-bottom: 3px solid #10ac84;
+            display: inline-block;
+            padding-bottom: 6px;
+            margin-top: 35px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        /* 網站連結 a */
+        a {
+            text-decoration: none;
+            color: #5f27cd; /* 紫色 */
+            font-size: 20px;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: #ff9f43; /* 橘色 hover 效果 */
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+        }
+
+        /* Steam 專屬樣式 */
+        .steam-link {
+            font-size: 28px;
+            font-weight: bold;
+            color: #1b2838;
+        }
+
+        .steam-link:hover {
+            color: #00adee; /* Steam 藍色 */
+        }
+
+        /* 外框容器 */
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #ffffffcc;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌐 網站大百科</h1>
+
+        <h2>查詢</h2>
+        <ul>
+            <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+            <li><a href="https://zh.wikipedia.org/zh-tw/Wikipedia:%E9%A6%96%E9%A1%B5" target="_blank">維基百科（Wikipedia）</a></li>
+        </ul>
+
+        <h2>影音</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+        </ul>
+
+        <h2>遊戲</h2>
+        <ul>
+            <li><a href="https://store.steampowered.com/" target="_blank" class="steam-link">Steam</a></li>
+            <li><a href="https://www.roblox.com/home" target="_blank">Roblox</a></li>
+        </ul>
+    </div>
+</body>
+</html>
